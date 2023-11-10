@@ -1,0 +1,223 @@
+/* COMMON STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #757575;
+    --white: #fff;
+    --blue: #0ef;
+    --shadow: 0 0 1rem var(--blue);
+    --transition: .5s ease;
+}
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'ProstoOne';
+    src: url(../fonts/ProstoOne-Regular.ttf);
+}
+html {
+    font-size: 65.2%;
+}
+body {
+    font-family: 'ProstoOne';
+    background: var(--bg-color);
+    color: var(--white);
+}
+span {
+    color: var(--blue);
+}
+section {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.btn {
+    display: inline-flex;
+    padding: 1rem 2.8rem;
+    background: var(--blue);
+    border-radius: 4rem;
+    box-shadow: var(--shadow);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    transition: var(--transition);
+}
+.btn:hover {
+    box-shadow: none;
+}
+h2 {
+    text-align: center;
+    margin: -4rem 0 4rem 0;
+}
+
+
+/* BUTTON BACK */
+.back {
+    margin-top: -3.7rem;
+
+}
+.back a i {
+    font-size: 3.5rem;
+    color: var(--white);
+}
+.back a i:hover {
+    color: var(--blue);
+    animation: arrowMove 1s ease-in-out infinite;
+}
+@keyframes arrowMove {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-1.4rem);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* PROJECTS PAGE */
+.projects {
+    background: var(--second-bg-color);
+}
+.projects h2 {
+    margin-bottom: 4rem;
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.projects-container .projects-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.projects-box {
+    width: 100%;
+}
+.projects-box img {
+    width: 100%;
+    transition: .5s ease;
+    pointer-events: none;
+}
+.projects-box:hover img {
+    transform: translateY(-100%);
+    opacity: .2;
+}
+.projects-box .projects-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--blue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.projects-box:hover .projects-layer {
+    transform: translateY(0);
+}
+.projects-layer p {
+    margin: 2rem 0 3rem;
+}
+.projects-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--white);
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.projects-layer a i {
+    font-size: 2rem;
+    color: var(--bg-color);
+}
+.projects-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+.projects-more a {
+    color: var(--white);
+    font-size: 1.3rem;
+}
+.projects-more:hover a {
+    padding-bottom: .3rem;
+    border-bottom: .15rem solid var(--blue);
+}
+.projects-more:hover a span {
+    padding-bottom: .3rem;
+    border-bottom: .15rem solid var(--white);
+}
+
+.app-container {
+    display: flex;
+}
+
+.app-video video {
+    width: 100%;
+    border-radius: 2rem;
+    will-change: auto;
+}
+.app-about p {
+    text-align: justify;
+}
+
+.app-about a {
+    margin: 1rem 0 0 3rem;
+    font-size: 1.6rem;
+}
+
+.skill-text {
+    font-size: 1.6rem;
+    width: 100%;
+}
+.skill-text p {
+    margin: 2rem 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+.p-list {
+    margin-top: 4rem;
+}
+.p-list p {
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+.p-list p > i {
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    color: var(--blue);
+}
+.skill-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.skill-img img {
+    width: 45rem;
+    pointer-events: none;
+    border-radius: 1rem;
+    margin: 2rem 0 0 0;
+}

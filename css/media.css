@@ -1,0 +1,690 @@
+@media (min-width: 1401px) {
+    #menu-icon {
+        display: none;
+    }
+    section {
+        padding: 20rem 9% 2rem;
+    }
+    .navbar a {
+        font-size: 2rem;
+    }
+    .home-content h3 {
+        font-size: 3.5rem;
+    }
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    .home-content p {
+        font-size: 1.8rem;
+    }
+    .heading {
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+    .skills-box i {
+        font-size: 7rem;
+    }
+    .skills-box h3 {
+        font-size: 2.6rem;
+    }
+    .skills-box p {
+        font-size: 1.6rem;
+    }
+    .projects-layer p {
+        font-size: 1.2rem;
+    }
+    .projects-layer h4 {
+        font-size: 1.2rem;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 110px;
+        height: 75px;
+        top: 0;
+        left: 15%;
+    }
+    .ellipse-1 img {
+        width: 110px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 130px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 180px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 63px;
+        bottom: 15%;
+        left: 10%;
+    }
+    .ellipse-3 img {
+        width: 63px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 190px;
+        height: 95px;
+        top: 0;
+        right: 10%;
+    }
+    .ellipse-4 img {
+        width: 190px;
+        margin-top: -100px;
+    }
+    .ellipse-5 {
+        width: 115px;
+        right: 10%;
+        top: 35%;
+    }
+    .ellipse-5 img {
+        width: 115px;
+    }
+    .ellipse-6 {
+        width: 140px;
+        right: 3%;
+        top: 50%;
+    }
+    .ellipse-6 img {
+        width: 140px;
+    }
+    .proekt-info {
+        flex-direction: row;
+    }
+    .desc_proekt {
+        width: 40%;
+    }
+
+    .applications {
+        padding: 10rem;
+    }
+    .applications h2 {
+        border: 1px solid red;
+        margin-top: -4rem;
+    }
+
+}
+@media (max-width: 1400px) {
+    .header {
+        padding: 2rem 5%;
+    }
+    section {
+        padding: 10rem 9% 2rem;
+    }
+    #menu-icon {
+        display: none;
+    }
+    .navbar a {
+        font-size: 1.7rem;
+    }
+    .home-content h3 {
+        font-size: 3.2rem;
+    }
+    .home-content h1 {
+        font-size: 5.6rem;
+    }
+    .home-content p {
+        font-size: 1.6rem;
+    }
+    .home-img img {
+        width: 35vw;
+    }
+    .heading {
+        font-size: 4.5rem;
+    }
+    .about-img img {
+        width: 30vw;
+    }
+    .skills-box i {
+        font-size: 7rem;
+    }
+    .skills-box h3 {
+        font-size: 2.6rem;
+    }
+    .skills-box p {
+        font-size: 1.6rem;
+    }
+    .projects-layer p {
+        font-size: 1.2rem;
+    }
+    .projects-layer h4 {
+        font-size: 1.2rem;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 110px;
+        height: 75px;
+        top: 0;
+        left: 15%;
+    
+    }
+    .ellipse-1 img {
+        width: 110px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 130px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 180px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 63px;
+        bottom: 15%;
+        left: 10%;
+    }
+    .ellipse-3 img {
+        width: 63px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 190px;
+        height: 95px;
+        top: 0;
+        right: 10%;
+    }
+    .ellipse-4 img {
+        width: 190px;
+        margin-top: -100px;
+    }
+    .ellipse-5 {
+        width: 115px;
+        right: 10%;
+        top: 35%;
+    }
+    .ellipse-5 img {
+        width: 115px;
+    }
+    .ellipse-6 {
+        width: 140px;
+        right: 3%;
+        top: 50%;
+    }
+    .ellipse-6 img {
+        width: 140px;
+    }
+
+    .app-video {
+        width: 60%;
+    }
+    .app-about {
+        width: 40%;
+    }
+    .app-about p {
+        margin: 2rem 0 2rem 3rem;
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 100px;
+        height: 65px;
+        top: 0;
+        left: 15%;
+    }
+    .ellipse-1 img {
+        width: 100px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 90px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 140px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 63px;
+        bottom: 15%;
+        left: 8%;
+    }
+    .ellipse-3 img {
+        width: 63px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 160px;
+        height: 65px;
+        top: 0;
+        right: 10%;
+    }
+    .ellipse-4 img {
+        width: 160px;
+        margin-top: -100px;
+    }
+    .ellipse-5 {
+        width: 90px;
+        right: 8%;
+        top: 35%;
+    }
+    .ellipse-5 img {
+        width: 90px;
+    }
+    .ellipse-6 {
+        width: 120px;
+        right: 2%;
+        top: 49%;
+    }
+    .ellipse-6 img {
+        width: 120px;
+    }
+    
+}
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .skills {
+        padding-bottom: 7rem;
+    }
+    .projects {
+        padding-bottom: 7rem;
+    }
+    .contact {
+        min-height: auto;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 70px;
+        height: 65px;
+        top: 0;
+        left: 15%;
+    }
+    .ellipse-1 img {
+        width: 70px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 90px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 100px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 55px;
+        bottom: 15%;
+        left: 6%;
+    }
+    .ellipse-3 img {
+        width: 55px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 140px;
+        height: 70px;
+        top: 0;
+        right: 10%;
+    }
+    .ellipse-4 img {
+        width: 140px;
+        margin-top: -75px;
+    }
+    .ellipse-5 {
+        width: 60px;
+        right: 8%;
+        top: 38%;
+    }
+    .ellipse-5 img {
+        width: 60px;
+    }
+    .ellipse-6 {
+        width: 100px;
+        right: 2%;
+        top: 49%;
+    }
+    .ellipse-6 img {
+        width: 100px;
+    }
+    
+}
+@media (max-width: 840px) {
+    .app-about p {
+        margin: 1rem 0 2rem 3rem;
+    }
+    .skill-container {
+        margin: 0 1rem;
+    }
+    .skill-img img {
+        width: 30rem;
+        margin: 10rem 0 0 0;
+    }
+}
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem solid rgba(0, 0, 0, .2);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-img img {
+        width: 80vw;
+        margin-top: 4rem;
+    }
+    .home {
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+    .about {
+        flex-direction: column-reverse;
+        margin: 0 1rem;
+    }
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .skills h2 {
+        margin-bottom: 3rem;
+    }
+    .projects h2 {
+        margin-bottom: 3rem;
+    }
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-layer p {
+        font-size: 1.4rem;
+    }
+    .projects-layer h4 {
+        font-size: 1.2rem;
+    }
+
+    .proekt-info {
+        flex-direction: column;
+    }
+    .desc_proekt {
+        width: 100%;
+    }
+    .applications .heading {
+        font-size: 3.5rem;
+    }
+    .app-container {
+        flex-direction: column;
+    }
+    .app-video, .app-about {
+        width: 100%;
+    }
+    .app-about p {
+        margin: 1rem 0 2rem 0;
+        font-size: 1.8rem;
+    }
+    .app-about {
+        text-align: center;
+    }
+    .app-about a {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 650px) {
+    .skill-img img {
+        width: 22rem;
+        margin: 13.5rem 0 0 0;
+    }
+    
+}
+@media (max-width: 617px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .projects-layer p {
+        font-size: 2rem;
+    }
+    .projects-layer h4 {
+        font-size: 1.9rem;
+    }
+    .applications .heading {
+        font-size: 3.2rem;
+    }
+    .app-about p {
+        margin: 1rem 0 2rem 0;
+        font-size: 1.6rem;
+    }
+    .app-about a {
+        font-size: 1.6rem;
+    }
+
+
+    .skill-img img {
+        width: 20rem;
+        margin: 5rem 0 0 0;
+    }
+    .p-list p {
+        text-align: left;
+    }
+}
+@media (max-width: 530px) {
+    .skill-list {
+        flex-direction: column;
+    }
+    .skill-img img {
+        width: 100%;
+        margin: 0;
+    }
+    .p-list {
+    margin-top: 2rem;
+    }
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    .header,
+    .home,
+    .about,
+    .skills,
+    .projects {
+        padding: 2rem 5%;
+    }
+    .skills-box i {
+        font-size: 5rem;
+    }
+    .projects-container {
+        margin: 0 1rem;
+    }
+    .projects-layer p {
+        font-size: 1.8rem;
+    }
+    .projects-layer h4 {
+        font-size: 1.7rem;
+    }
+    .projects-layer a {
+        width: 10rem;
+        height: 5rem;
+        border-radius: 2rem;
+        font-size: 1.8rem;
+    }
+    .contact form .input-box input {
+        width: 100%;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 70px;
+        height: 65px;
+        top: 0;
+        left: 5%;
+    }
+    .ellipse-1 img {
+        width: 70px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 90px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 100px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 55px;
+        bottom: 5%;
+        left: 2%;
+    }
+    .ellipse-3 img {
+        width: 55px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 120px;
+        height: 70px;
+        top: 0;
+        right: 6%;
+    }
+    .ellipse-4 img {
+        width: 120px;
+        margin-top: -75px;
+    }
+    .ellipse-5 {
+        width: 65px;
+        right: 8%;
+        top: 38%;
+    }
+    .ellipse-5 img {
+        width: 65px;
+    }
+    .ellipse-6 {
+        width: 120px;
+        right: 2%;
+        top: 59%;
+    }
+    .ellipse-6 img {
+        width: 120px;
+    }
+    .applications .heading {
+        font-size: 2.6rem;
+    }
+    .app .heading {
+        font-size: 3.4rem;
+    }
+    .app-about {
+        margin-top: 2rem;
+    }
+    .app-about p {
+        margin: 3rem 0 2rem 0;
+        font-size: 1.6rem;
+    }
+    .app-about a {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+    .about-img img {
+        width: 90vw;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .ellipse-1 {
+        overflow: hidden;
+        width: 70px;
+        height: 65px;
+        top: 0;
+        left: 5%;
+    }
+    .ellipse-1 img {
+        width: 70px;
+        margin-top: -40px;
+    }
+    .ellipse-2 {
+        width: 90px;
+        overflow: hidden;
+        top: 35%;
+        left: 0;
+    }
+    .ellipse-2 img {
+        width: 100px;
+        margin-left: -60px;
+    }
+    .ellipse-3 {
+        width: 55px;
+        bottom: 5%;
+        left: 2%;
+    }
+    .ellipse-3 img {
+        width: 55px;
+    }
+    .ellipse-4 {
+        overflow: hidden;
+        width: 120px;
+        height: 70px;
+        top: 0;
+        right: 6%;
+    }
+    .ellipse-4 img {
+        width: 120px;
+        margin-top: -75px;
+    }
+    .ellipse-5 {
+        width: 65px;
+        right: 8%;
+        top: 38%;
+    }
+    .ellipse-5 img {
+        width: 65px;
+    }
+    .ellipse-6 {
+        width: 120px;
+        right: 2%;
+        top: 59%;
+    }
+    .ellipse-6 img {
+        width: 120px;
+    }
+    .proekt .heading {
+        font-size: 3rem;
+    }
+}

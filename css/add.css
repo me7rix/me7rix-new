@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #757575;
+    --white-text: #fff;
+    --main-color: #00EEFF;
+    --shadow: 0 0 1rem var(--main-color);
+    --transition: .5s ease;
+}
+@font-face {
+    font-family: 'ProstoOne';
+    src: url(../fonts/ProstoOne-Regular.ttf);
+}
+html {
+    font-size: 65.2%;
+}
+body {
+    font-family: 'ProstoOne';
+    background: var(--bg-color);
+    color: var(--white-text);
+}
+h2 {
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 2.6rem;
+}
+span {
+    color: var(--main-color);
+}
+.btn {
+    display: inline-flex;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: var(--shadow);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    transition: var(--transition);
+    width: 40%;
+    justify-content: center;
+}
+.btn:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.add form {
+    max-width: 50rem;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.add form .input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--white-text);
+    background: var(--second-bg-color);
+    opacity: .8;
+    border-radius: .8rem;
+    margin: 1rem 0;
+}
+.add form input:focus {
+    border: .1rem solid var(--main-color);
+}
+.add form div {
+    text-align: center;
+    margin: 1rem 0;
+}
